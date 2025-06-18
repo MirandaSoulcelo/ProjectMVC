@@ -1,0 +1,12 @@
+D:\Users\Marce\MVCdotnet\Project.Application\bin\Debug\net8.0\Project.Application.deps.json
+D:\Users\Marce\MVCdotnet\Project.Application\bin\Debug\net8.0\Project.Application.dll
+D:\Users\Marce\MVCdotnet\Project.Application\bin\Debug\net8.0\Project.Application.pdb
+D:\Users\Marce\MVCdotnet\Project.Application\obj\Debug\net8.0\Project.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Marce\MVCdotnet\Project.Application\obj\Debug\net8.0\Project.Application.AssemblyInfoInputs.cache
+D:\Users\Marce\MVCdotnet\Project.Application\obj\Debug\net8.0\Project.Application.AssemblyInfo.cs
+D:\Users\Marce\MVCdotnet\Project.Application\obj\Debug\net8.0\Project.Application.csproj.CoreCompileInputs.cache
+D:\Users\Marce\MVCdotnet\Project.Application\obj\Debug\net8.0\Project.Application.sourcelink.json
+D:\Users\Marce\MVCdotnet\Project.Application\obj\Debug\net8.0\Project.Application.dll
+D:\Users\Marce\MVCdotnet\Project.Application\obj\Debug\net8.0\refint\Project.Application.dll
+D:\Users\Marce\MVCdotnet\Project.Application\obj\Debug\net8.0\Project.Application.pdb
+D:\Users\Marce\MVCdotnet\Project.Application\obj\Debug\net8.0\ref\Project.Application.dll
