@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -8,12 +9,14 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
+
+
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Index2()
     {
         return View();
     }

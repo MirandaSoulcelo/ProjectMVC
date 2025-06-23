@@ -1,5 +1,8 @@
+using System.Reflection;
 using Microsoft.EntityFrameworkCore;
+using Project.Application.Interfaces;
 using Project.Infrastructure.Data;
+using Project.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +10,26 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(Options =>
     Options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+
+// MediatR
+builder.Services.AddMediatR(cfg =>
+    cfg.RegisterServicesFromAssembly(Assembly.Load("Project.Application"))
+);
+
+// Repositórios
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+
+
+
+
+
+
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

@@ -1,12 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Project.Application.DTOs;
+using Project.Domain.Entities;
 
 namespace Project.Application.Interfaces
 {
-    public interface Users
+    public interface IUsersInterface
     {
-        
+        Task<Response<List<UsersDTO>>> GetAll();
     }
 }

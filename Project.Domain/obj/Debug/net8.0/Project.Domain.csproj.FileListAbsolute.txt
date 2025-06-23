@@ -10,3 +10,15 @@ D:\Users\Marce\MVCdotnet\Project.Domain\obj\Debug\net8.0\Project.Domain.dll
 D:\Users\Marce\MVCdotnet\Project.Domain\obj\Debug\net8.0\refint\Project.Domain.dll
 D:\Users\Marce\MVCdotnet\Project.Domain\obj\Debug\net8.0\Project.Domain.pdb
 D:\Users\Marce\MVCdotnet\Project.Domain\obj\Debug\net8.0\ref\Project.Domain.dll
+C:\Users\Marce\OneDrive\Documents\WebDotnet\ProjectMVC\Project.Domain\bin\Debug\net8.0\Project.Domain.deps.json
+C:\Users\Marce\OneDrive\Documents\WebDotnet\ProjectMVC\Project.Domain\bin\Debug\net8.0\Project.Domain.dll
+C:\Users\Marce\OneDrive\Documents\WebDotnet\ProjectMVC\Project.Domain\bin\Debug\net8.0\Project.Domain.pdb
+C:\Users\Marce\OneDrive\Documents\WebDotnet\ProjectMVC\Project.Domain\obj\Debug\net8.0\Project.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marce\OneDrive\Documents\WebDotnet\ProjectMVC\Project.Domain\obj\Debug\net8.0\Project.Domain.AssemblyInfoInputs.cache
+C:\Users\Marce\OneDrive\Documents\WebDotnet\ProjectMVC\Project.Domain\obj\Debug\net8.0\Project.Domain.AssemblyInfo.cs
+C:\Users\Marce\OneDrive\Documents\WebDotnet\ProjectMVC\Project.Domain\obj\Debug\net8.0\Project.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Marce\OneDrive\Documents\WebDotnet\ProjectMVC\Project.Domain\obj\Debug\net8.0\Project.Domain.sourcelink.json
+C:\Users\Marce\OneDrive\Documents\WebDotnet\ProjectMVC\Project.Domain\obj\Debug\net8.0\Project.Domain.dll
+C:\Users\Marce\OneDrive\Documents\WebDotnet\ProjectMVC\Project.Domain\obj\Debug\net8.0\refint\Project.Domain.dll
+C:\Users\Marce\OneDrive\Documents\WebDotnet\ProjectMVC\Project.Domain\obj\Debug\net8.0\Project.Domain.pdb
+C:\Users\Marce\OneDrive\Documents\WebDotnet\ProjectMVC\Project.Domain\obj\Debug\net8.0\ref\Project.Domain.dll

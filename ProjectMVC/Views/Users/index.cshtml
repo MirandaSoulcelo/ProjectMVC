@@ -1,0 +1,38 @@
+@model IEnumerable<ProjectMVC.ViewModels.UserViewModel>
+@{
+    ViewData["Title"] = "index";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (Model != null && Model.Any())
+{
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var user in Model)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.Name</td>
+                    <td>@user.Email</td>
+                </tr>
+            }
+        </tbody>
+        </table>
+
+}
+else
+{
+    <div class= "alert alert-info">
+
+        Nenhum Dado encontrado
+    </div>
+}

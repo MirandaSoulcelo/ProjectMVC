@@ -7,8 +7,7 @@ namespace Project.Application.DTOs
 {
     public class UsersDTO
     {
-        public class Users
-    {
+      
 
         
         public int Id { get; set; }
@@ -19,6 +18,6 @@ namespace Project.Application.DTOs
         public string Password { get; set; } = string.Empty;
 
         public bool Status { get; set; } = true;
-    }
+    
     }
 }
