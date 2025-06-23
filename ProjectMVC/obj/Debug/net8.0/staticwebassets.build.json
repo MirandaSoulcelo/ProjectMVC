@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x3fs5altmoXCqBDn1fuqlYIHspGOvrnOENqdGDsa+2w=",
+  "Hash": "cbehYozvqDGyGy5XMEXUFcOLxxeYbD3Nc4utZ9CVdWk=",
   "Source": "ProjectMVC",
   "BasePath": "_content/ProjectMVC",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Marce\\OneDrive\\Documents\\WebDotnet\\ProjectMVC\\ProjectMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjectMVC.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Marce\\OneDrive\\Documents\\WebDotnet\\ProjectMVC\\ProjectMVC\\wwwroot\\css\\create-user.css",
+      "SourceId": "ProjectMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Marce\\OneDrive\\Documents\\WebDotnet\\ProjectMVC\\ProjectMVC\\wwwroot\\",
+      "BasePath": "_content/ProjectMVC",
+      "RelativePath": "css/create-user.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\create-user.css"
     },
     {
       "Identity": "C:\\Users\\Marce\\OneDrive\\Documents\\WebDotnet\\ProjectMVC\\ProjectMVC\\wwwroot\\css\\site.css",

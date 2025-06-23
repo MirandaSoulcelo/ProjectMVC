@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ProjectMVC.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Marce\\OneDrive\\Documents\\WebDotnet\\ProjectMVC\\ProjectMVC\\wwwroot\\css\\create-user.css",
+      "PackagePath": "staticwebassets\\css\\create-user.css"
+    },
+    {
       "Id": "C:\\Users\\Marce\\OneDrive\\Documents\\WebDotnet\\ProjectMVC\\ProjectMVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
