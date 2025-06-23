@@ -36,12 +36,42 @@ namespace ProjectMVC.Controllers
             return View(usersVm);
         }
 
-       
+
         [HttpGet("Error")]
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View("Error!");
         }
+
+
+
+        [HttpGet("Create")]
+        public IActionResult Create()
+        {
+            return View(new CreateUserDTO());
+        }
+        
+
+
+        [HttpPost("Create")]
+        public async Task<IActionResult> Create(CreateUserDTO dto)
+        {
+            if (!ModelState.IsValid)
+                return View(dto);
+
+            var command = new CreateUserCommand(dto);
+            var result = await _mediator.Send(command);
+
+            if (!result.Status)
+            {
+                ModelState.AddModelError(string.Empty, result.Message);
+                return View(dto);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+
     }
 }
